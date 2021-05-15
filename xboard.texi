@@ -2207,7 +2207,7 @@ You can request the optional material to be balanced,
 i.e. equal for white and black.
 @item narrow
 @cindex narrow, Menu Item
-The @samp{narrow} button is similar in fuction to the @samp{find position} button,
+The @samp{narrow} button is similar in function to the @samp{find position} button,
 but only searches in the already selected games,
 rather than the complete game file,
 and can thus be used to refine a search based on multiple criteria.
