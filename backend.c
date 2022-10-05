@@ -860,8 +860,8 @@ InitEngine (ChessProgramState *cps, int n)
     cps->pseudo = appData.pseudo[n];
 
     /* New features added by Tord: */
-    cps->useFEN960 = FALSE;
-    cps->useOOCastle = TRUE;
+    cps->useFEN960 = TRUE; //Changed values to work with fairy-stockfish
+    cps->useOOCastle = FALSE;
     /* End of new features added by Tord. */
     cps->fenOverride  = appData.fenOverride[n];
 
