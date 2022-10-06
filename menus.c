@@ -685,6 +685,7 @@ MenuItem modeMenu[] = {
   {N_("Analyze Game"),   "<Ctrl>g",        "AnalyzeFile",   AnalyzeFileEvent,               RADIO },
   {N_("Edit Game"),      "<Ctrl>e",        "EditGame",      EditGameEvent,                  RADIO },
   {N_("Edit Position"),  "<Ctrl><Shift>e", "EditPosition",  EditPositionEvent,              RADIO },
+  {N_("Blindfold"),      "<Alt>b",         "Blindfold",     BlindfoldProc,                  RADIO },
   {N_("Training"),        NULL,            "Training",      TrainingEvent,                  RADIO },
   {N_("ICS Client"),      NULL,            "ICSClient",     IcsClientEvent,                 RADIO },
   {"----",                NULL,             NULL,           NothingProc},
@@ -753,7 +754,7 @@ MenuItem optionsMenu[] = {
   {N_("Animate Moving"),         "<Ctrl><Shift>a",  "AnimateMoving",       AnimateMovingProc},
   {N_("Auto Flag"),              "<Ctrl><Shift>f",  "AutoFlag",            AutoflagProc},
   {N_("Auto Flip View"),          NULL,             "AutoFlipView",        AutoflipProc},
-  {N_("Blindfold"),               NULL,             "Blindfold",           BlindfoldProc},
+  {N_("Blindfold"),              "<Alt>b",          "Blindfold",           BlindfoldProc},
   {N_("Flash Moves"),             NULL,             "FlashMoves",          FlashMovesProc},
 #if HIGHDRAG
   {N_("Highlight Dragging"),      NULL,             "HighlightDragging",   HighlightDraggingProc},
@@ -800,7 +801,7 @@ MenuItem noMenu[] = {
   { "", NULL,"AnimateMoving", AnimateMovingProc },
   { "", NULL,"Autoflag", AutoflagProc },
   { "", NULL,"Autoflip", AutoflipProc },
-  { "", NULL,"Blindfold", BlindfoldProc },
+  { "", "<Alt>b","Blindfold", BlindfoldProc },
   { "", NULL,"FlashMoves", FlashMovesProc },
 #if HIGHDRAG
   { "", NULL,"HighlightDragging", HighlightDraggingProc },

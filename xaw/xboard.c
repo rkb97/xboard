@@ -399,6 +399,7 @@ char globalTranslations[] =
 #ifndef OPTIONSDIALOG
     "\
    :Ctrl<Key>Q: MenuItem(AlwaysQueenProc) \n \
+   :Alt<Key>B: MenuItem(BlindfoldProc) \n \
    :Ctrl<Key>F: MenuItem(AutoflagProc) \n \
    :Ctrl<Key>A: MenuItem(AnimateMovingProc) \n \
    :Ctrl<Key>L: MenuItem(TestLegalityProc) \n \
